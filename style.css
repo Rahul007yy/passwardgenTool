@@ -1,0 +1,85 @@
+/* General Styling */
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering Content */
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Number Input Styling (Remove Spinners) */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield; /* Ensures compatibility */
+    text-align: center;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #4caf50;
+    width: 100%;
+}
+
+/* Password Display Input */
+input[type="text"] {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    width: 100%;
+}
+
+input[type="text"]:focus {
+    background-color: #fff;
+    color: #000;
+    outline: none;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #4caf50;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #3e8e41;
+    transform: scale(1.05);
+}
+
+/* Copy Button Styling */
+#copy-button {
+    background-color: #4caf50;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 8px;
+}
+
+#copy-button:hover {
+    background-color: #3e8e41;
+    transform: scale(1.05);
+}
+
+/* Button Click Effect */
+.btn:active {
+    transform: translateY(2px);
+}
